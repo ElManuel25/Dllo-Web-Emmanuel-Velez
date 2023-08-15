@@ -51,6 +51,15 @@ const imprimirNombreyApellido = (nombre, apellido) => {
 
 imprimirNombreyApellido(nombre, apellido)
 
-(()=>{
-console.log(12)
-})
+const crearNombreCompleto = (nombre, apellido) => {
+    console.log("--GLOBAL SCOPE FAKE--");
+    console.log(nombre, apellido);
+    let name = nombre
+    if(nombre.length >3){
+        let name = nombre[0] + " " + apellido
+        console.log(name);
+    }
+    console.log(name)
+}
+
+crearNombreCompleto(nombre, apellido)
