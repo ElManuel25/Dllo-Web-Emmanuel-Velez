@@ -1,0 +1,19 @@
+ul {
+    list-style: none;
+    background-color: aquamarine;
+    font-family: cursive;
+}
+
+body {
+    align-items: center;
+}
+
+p {
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkgreen;
+}
