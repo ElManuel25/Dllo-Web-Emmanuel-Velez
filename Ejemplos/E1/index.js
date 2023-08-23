@@ -97,3 +97,26 @@ console.log(Juane);
 
 let estudiantes2 = estudiantes.map(x => {return{...x, edad:null}})
 console.log(estudiantes2)
+
+
+//JSON (javascript object notation)
+
+jsonEnJavascript();
+
+function jsonEnJavascript(){
+    const ciudad = {nombre: "Medellin",
+    poblacion: 2.5,
+    barrios_count: 31
+}
+
+//DESCTRUCTURACIÓN
+
+const { nombre:nombreCiudad } = ciudad
+
+console.log(nombreCiudad);
+}
+
+
+
+
+
